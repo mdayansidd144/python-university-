@@ -42,7 +42,15 @@
 # }
 # else:
 #   print("no")
-m = float(input("enter the number"))  
-n = float(input("enter the number"))
-quotient = int(m//n)
-print(quotient)
+# m = float(input("enter the number"))  
+# n = float(input("enter the number"))
+# quotient = int(m//n)
+# print(quotient)
+# a = int(input("enter the number"))
+# if a>0:
+#   if a%2==0:
+#     print("the num is even")
+#   else:
+#     print("the number is odd")  
+# else:
+#   print("the number is negative")    
