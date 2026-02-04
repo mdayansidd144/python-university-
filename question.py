@@ -113,5 +113,24 @@
 #   print("the 2 digit number")
 # else :
 #   print('3 digit number')    
-
-   
+# temp = int(input("enter the temp"))
+# if temp ==0:
+#   print("freezing")
+# elif temp>0 and temp<20:
+#   print("cold")
+# elif temp>20 and temp<35:
+#   print("warm")    
+# else:
+#   print("hot")
+# x = str(input("enter the password"))
+# if x == 'ayan@sidd':
+#    print("correct")  
+# else:
+#   print("incorrect")   
+# x= int(input("enter the 1st side"))
+# y = int(input("enter the 2nd side"))
+# z = int(input("enter the 3rd side"))
+# if x+y==z:
+#   print("valid")
+# else :
+#   print("invalid")  
