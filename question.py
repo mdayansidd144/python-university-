@@ -53,4 +53,65 @@
 #   else:
 #     print("the number is odd")  
 # else:
-#   print("the number is negative")    
+#   print("the number is negative") 
+# age = int(input("enter the age"))
+# if age>=18:
+#   print("eligible to vote")   
+# else :
+#   print("not eligible to vote")  
+# num = int(input("enter the number"))  
+# if num%2==0:
+#   print("the number is even")
+# else :
+#   print("the number is odd")  
+# x = int(input("enter the first one"))  
+# y = int(input("enter the second one"))
+# if x>y:
+#   print("first one is bigger")
+# elif x==y:
+#   print("they are equal")  
+# else :
+#   print("second is greater")  
+# m = int(input("enter the number"))
+# if m%5==0:
+#   print("the number is div by 5")  
+# else :
+#   print("the num is not div by 5") 
+# n = int(input("enter the marks"))
+# if n>=90:
+#    print("A")
+# elif n>=75:
+#    print("B")
+# elif n>=50:
+#    print("C")
+# else :
+#    print("D") 
+# lp = int(input("enter the number"))     
+# if lp%4==0:
+#   print("the year is leap year") 
+# else :
+#   print("not a leap year")  
+# b = int(input("enter the number"))
+# if b==1:
+#   print("monday")
+# elif b==2:
+#   print("tuesday")
+# elif b==3:
+#   print("wednesday")
+# elif b==4:
+#   print("thursday")
+# elif b==5:
+#   print("friday")
+# elif b==6:
+#   print("saturday")
+# else :
+#   print("sunday")
+# z = int(input("enter the number"))
+# if z<10:
+#   print("1 digit")
+# elif z<100:
+#   print("the 2 digit number")
+# else :
+#   print('3 digit number')    
+
+   
