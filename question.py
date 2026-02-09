@@ -282,8 +282,8 @@
 # list = [1,2,3,4,5]
 # print(list[0])
 # print(list[-1])
-list = [1,2,3,4,5]
-print(sum(list)/len(list))
+# list = [1,2,3,4,5]
+# print(sum(list)/len(list))
 # print(len(list))
 # list = ["apple","banana","mango"]
 # list.append("guava")
@@ -309,14 +309,41 @@ print(sum(list)/len(list))
 # print(tup[0])
 # print(tup[-1])
 # print(len(tup))
-tup2 = ("mango","jelly","apple","banana")
-for i in range(0,len(tup2),+1):
-  print(tup2[i])
-tup3=(7,8,9,10)  
-tup= tup2+tup3
-print(tup)
-a = tup.count(2)
-if a >1:
-  print("yes")
-else:
-  print("false")  
+# tup2 = ("mango","jelly","apple","banana")
+# for i in range(0,len(tup2),+1):
+#   print(tup2[i])
+# tup3=(7,8,9,10)  
+# tup= tup2+tup3
+# print(tup)
+# a = tup.count(2)
+# if a >1:
+#   print("yes")
+# else:
+#   print("false")  
+with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
+  content =file1.read()
+  print(content)
+# with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
+#   x = file1.readline()
+#   print(x)
+# with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
+#   y = file1.readlines()
+#   print(y)  
+#   # file1.readlines()
+  # with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
+  #  for line in file1:
+  #   z = file1.readlines()
+  #  print("\n",z)
+
+with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","w") as file1:
+ file1.write("ayan ,19,faizabad")
+ 
+with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","a") as file1: 
+  file1.write("\nasim,21,faizabad")
+with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
+  print(content)
+with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r+") as file1:)  as file1:
+lines = file1.readlines()
+lines[0]= lines[0].replace("Amit","Abhishek")
+file1.seek(0)
+file1.writelines(lines)
