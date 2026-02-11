@@ -320,9 +320,9 @@
 #   print("yes")
 # else:
 #   print("false")  
-with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
-  content =file1.read()
-  print(content)
+# with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
+#   content =file1.read()
+#   print(content)
 # with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
 #   x = file1.readline()
 #   print(x)
@@ -332,18 +332,78 @@ with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
 #   # file1.readlines()
   # with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
   #  for line in file1:
-  #   z = file1.readlines()
+  #   z = file1.readlines()5
   #  print("\n",z)
 
-with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","w") as file1:
- file1.write("ayan ,19,faizabad")
+# with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","w") as file1:
+#  file1.write("ayan ,19,faizabad")
  
-with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","a") as file1: 
-  file1.write("\nasim,21,faizabad")
-with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
-  print(content)
-with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r+") as file1:)  as file1:
-lines = file1.readlines()
-lines[0]= lines[0].replace("Amit","Abhishek")
-file1.seek(0)
-file1.writelines(lines)
+# with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","a") as file1: 
+#   file1.write("\nasim,21,faizabad")
+# with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r") as file1:
+#   print(content)
+# with open(r"C:\Users\ayans\OneDrive\Desktop\datafile1.txt","r+") as file1:)  as file1:
+# lines = file1.readlines()
+# lines[0]= lines[0].replace("Amit","Abhishek")
+# file1.seek(0)
+# file1.writelines(lines)
+# class student:
+#   def __init__(self.name,roll)
+#     self.name = name
+#     self.roll = roll
+# s1 = Student("ayan",11)
+# print(s1)
+# class Animal:
+#   def speaks(self):
+#     print("animal speaks")
+# class dog(Animal):
+#   def bark(self):
+#     print("the dog barks")    
+# d1 = dog()
+# d1.speaks() 
+# class student:
+#   def __init__(self,name,rollno):
+#     self.name = name
+#     self.rollno = rollno
+#   def display(self):
+#     print(self.name,self.rollno)
+# s1 = student("ayan",11)
+# s1.display()
+# class rectangles:
+#   def __init__(self,length,breadth):
+#     self.length = length
+#     self.breadth = breadth
+#   def area(self):
+#     return self.length * self.breadth
+# r1 = rectangles(10,5)
+# print(r1.area())
+# class shape:
+#   def curve(self):
+#     print("the curve is smooth")
+# class circle:
+#   def curve(self):
+#     print("curve is very smooth")        
+# s1 =shape()
+# s1.curve()
+# c1 =circle()
+# c1.curve()
+# class dogs:
+#   def dog(self):
+#     print("bow bow")
+# class cats:
+#   def cat(self):
+#     print("meow meow")
+# c1 = cats()
+# c1.cat()
+# d1 = dogs()
+# d1.dog()
+# class bird:
+#   def sound(self):
+#     print("ko ko ko ")
+# class sparrow:
+#   def sound(self):
+#     print("kooo kooo kooo")    
+# b1 = bird()
+# b1.sound()
+# s1 = sparrow()
+# s1.sound()    
