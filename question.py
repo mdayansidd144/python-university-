@@ -488,4 +488,5 @@
 #     return self.name,self.brand,self.price
 # c1 = car("cullinan",'Rolls-Royce','8cr')  
 # print(c1.display())
-            
+# this is mohd ayan siddiqui
+# django itself has database Connector         
