@@ -608,3 +608,11 @@ student={
 countries.pop("germany")
 countries.get("brazil")
 countries.clear
+cars={
+  "name":"bugatti",
+  "model":"super-sport 300",
+  "color":"black",
+  "price":"48cr"
+}
+print(cars)
+print(cars.copy())
